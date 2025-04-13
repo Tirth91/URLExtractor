@@ -6,3 +6,5 @@ langchain-groq==0.3.2
 langchain-huggingface==0.1.2
 huggingface-hub==0.30.2
 python-dotenv==1.1.0
+pysqlite3-binary
+chromadb==0.6.3
