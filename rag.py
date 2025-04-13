@@ -111,8 +111,8 @@ if __name__=="__main__":
     urls=[
         # "https://www.cnbc.com/2024/12/21/how-the-federal-reserves-rate-policy-affects-mortgages.html&quot;,
         # "https://www.cnbc.com/2024/12/20/why-mortgage-rates-jumped-despite-fed-interest-rate-cut.html&quot;
-        "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-august-14-2024&quot",
-        "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-august-13-2024&quot"
+        "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-august-14-2024",
+        "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-august-13-2024"
     ]  #This will process the urls
 
     process_urls(urls)
