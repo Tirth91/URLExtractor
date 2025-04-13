@@ -28,7 +28,7 @@ COLLECTION_NAME = "real_estate"
 VECTOR_STORE_DIR = Path(__file__).parent / "resource/vector_store"
 
 # Load HuggingFace Token
-hf_token = os.getenv("HF_TOKEN")
+hf_token = os.getenv("HF_TOKEN") or st.secrets.get("HF_TOKEN")
 if not hf_token:
     raise ValueError("HF_TOKEN not found in environment variables.")
 login(token=hf_token)
